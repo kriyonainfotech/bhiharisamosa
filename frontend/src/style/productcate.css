@@ -1,0 +1,94 @@
+.product-card {
+  width: 400px; /* Adjusted width for better alignment */
+  margin: auto;
+  position: fixed; /* Makes the popup fixed on the screen */
+  top: 50%; /* Align vertically in the center */
+  left: 50%; /* Align horizontally in the center */
+  transform: translate(-50%, -50%); /* Perfectly center align */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff; /* Ensure it stands out from the background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  z-index: 1000; /* Ensure it appears above everything */
+  font-family: Arial, sans-serif;
+}
+
+.product-header {
+  text-align: center;
+}
+
+.product-header h2 {
+  margin-top: 16px; /* Adjusted margin for better spacing */
+}
+
+.product-header p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.product-image {
+  width: 200px; /* Adjusted size */
+  height: 100px; /* Maintain aspect ratio */
+  display: block; /* Center the image */
+  margin: 0 auto; /* Center align */
+}
+
+.product-variants {
+  margin-top: 16px;
+}
+
+.variant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.quantity-input {
+  width: 50px;
+  text-align: center; /* Center align the input */
+}
+
+.product-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.add-to-cart,
+.checkout {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+}
+
+.add-to-cart {
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #444; /* Slightly lighter color on hover */
+}
+
+.checkout {
+  background-color: #f90;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.checkout:hover {
+  background-color: #e68a00; /* Darker shade on hover */
+}
+
+.free-delivery-note {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 16px;
+}

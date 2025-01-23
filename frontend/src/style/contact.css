@@ -1,0 +1,77 @@
+tc/* General container styling */
+.home-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contact Us Section */
+  .contact-section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .contact-section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  .locations {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width:300px;
+    
+  }
+  
+  .location {
+    margin-bottom: 10px;
+    
+  }
+  
+  .location span {
+    font-weight: bold;
+  }
+  
+  .form-section form {
+    background-color: #800000; /* Dark red background */
+    padding: 40px;
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .form-section input,
+  .form-section textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  
+  .form-section button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #d3b8ae; /* Light brown button */
+    color: white;
+  }
+  .platform-icon {
+    max-width: 200px;
+  }
+  

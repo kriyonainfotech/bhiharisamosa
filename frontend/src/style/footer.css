@@ -1,0 +1,104 @@
+/* General Footer Styles */
+.footer-container {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Space between sections */
+  align-items: flex-start; /* Align sections to the top */
+  flex-wrap: wrap; /* Ensure responsiveness */
+  max-width: 1200px;
+  margin: 0 auto; /* Center the footer content */
+}
+
+/* Logo Section */
+.footer-logo {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-logo img {
+  width: 200px; /* Adjust the logo size */
+  height: 100px; /* Maintain aspect ratio */
+}
+
+/* Links Section */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex: 3; /* Make the links section wider */
+}
+
+.links-column {
+  margin-right: 20px; /* Add spacing between columns */
+}
+
+.links-column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.links-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links-column ul li {
+  margin-bottom: 8px;
+}
+
+.links-column ul li a {
+  text-decoration: none;
+  color: #fff; /* White links */
+  font-size: 14px;
+}
+
+.links-column ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Contact Section */
+.links-column p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  margin-top: 30px;
+  border-top: 1px solid #444; /* Subtle border for separation */
+  padding-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+      flex-direction: column; /* Stack sections vertically */
+      align-items: center; /* Center-align on small screens */
+  }
+
+  .footer-logo {
+      margin-bottom: 50px;
+      margin-top: 50px;
+      text-align: center; 
+  }
+
+  .footer-links {
+      flex-direction: column; /* Stack links vertically */
+      align-items: center;
+  }
+
+  .links-column {
+      margin-bottom: 20px; /* Add spacing between columns */
+  }
+}
