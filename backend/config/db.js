@@ -1,6 +1,7 @@
+// config/db.js
 const { Sequelize } = require("sequelize");
 
-const sequelize = new Sequelize("cart_db", "root", "MySQL&&100", {
+const sequelize = new Sequelize("cart_db", "root", "Password@123", {
   host: "localhost",
   dialect: "mysql",
 });
